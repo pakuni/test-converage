@@ -7,11 +7,11 @@ import (
 func main() {
 	fmt.Println("test")
 
-	a := aaa()
+	a := aa()
 
 	fmt.Println(a)
 }
 
-func aaa() string {
+func aa() string {
 	return "asd"
 }
