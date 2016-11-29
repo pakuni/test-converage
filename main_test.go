@@ -5,13 +5,13 @@ import (
 )
 
 func TestMainUn(t *testing.T) {
-	if aaa() != "asd" {
+	if aa() != "asd" {
 		t.Log("pass1")
 	}
 }
 
 func TestMainEq(t *testing.T) {
-	if aaa() == "asd" {
+	if aa() == "asd" {
 		t.Log("pass2")
 	}
 }
