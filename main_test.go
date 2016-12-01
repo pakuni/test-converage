@@ -7,7 +7,7 @@ import (
 func TestMainUn(t *testing.T) {
 	if aa() != "asd" {
 		t.Log("pass1")
-		t.Log("pass2");
+		t.Log("pass3");
 	}
 }
 
